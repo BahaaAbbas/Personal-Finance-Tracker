@@ -3,6 +3,7 @@
 A secure, intuitive web application that empowers users to take control of their finances—track income and expenses, set realistic budgets, and gain actionable insights through dynamic visualizations.
 
 ---
+
 <img width="960" height="540" alt="image" src="https://github.com/user-attachments/assets/74b177e7-006e-4878-ae77-50a681c81828" />
 
 ---
@@ -63,6 +64,7 @@ Our stack combines **modern frontend frameworks**, **scalable backend technologi
 * **Express.js** → RESTful API framework with middleware support.
 * **JWT (JSON Web Tokens)** → User authentication and route protection.
 * **bcrypt** → Secure password hashing.
+* **Google OAuth 2.0** → Simplified third-party login integration.
 
 ### **Database**
 
@@ -100,28 +102,43 @@ Our stack combines **modern frontend frameworks**, **scalable backend technologi
 
 ---
 
+## 👨‍💻 My Role: Backend Developer
+
+As one of the backend developers on the **Personal Finance Tracker** project, my main focus was on implementing the **authentication system** and **database APIs** to ensure secure and efficient communication between the frontend and backend.
+
+### **Key Contributions**
+
+#### 🔐 Authentication & Authorization
+
+* Implemented a **JWT-based authentication system** for secure user login and registration.
+* Integrated **Google OAuth 2.0**, allowing users to authenticate using their Google accounts.
+* Protected sensitive routes using middleware to validate JWT tokens.
+
+#### 🗄️ Database & API Development
+
+* Built RESTful APIs using **Node.js** and **Express.js** to handle all CRUD operations for:
+
+  * Users
+  * Transactions
+  * Budgets
+* Designed efficient MongoDB models with **Mongoose**, ensuring scalable and maintainable data structures.
+
+#### 🧪 API Testing & Documentation
+
+* Utilized **Postman** extensively for testing and documenting backend endpoints.
+* Organized Postman collections for frontend developers to easily test and integrate APIs.
+
+---
+
 ## 📌 Project Walkthrough
 
 1. **Problem Definition & Ideation** → Defined challenges in personal finance tracking.
 2. **UI/UX Design & Wireframes** → Created mockups for a clean, modern dashboard.
 3. **Agile Development (Scrum)** → Managed sprints and tasks in Jira.
 4. **Database & ERD Modeling** → Structured entities: Users, Transactions, Budgets.
-5. **Backend Development** → Secure RESTful APIs with authentication and validation.
+5. **Backend Development** → Secure RESTful APIs with JWT and OAuth 2.0 authentication.
 6. **Frontend Development** → React + MUI for interactive, responsive interfaces.
 7. **Testing & Documentation** → Verified workflows and documented endpoints in Postman.
-
----
-
-## ⚡ Challenges We Faced
-
-During the development of this project, our team encountered several personal and professional challenges that required strong collaboration and adaptability:
-
-* Different Time Zones & Commitments → One of our members was abroad starting a new job, making time coordination more complex.
-* Industry Experience vs. Academic Workload → Another member was already employed in the tech industry, needing to balance professional tasks with academic responsibilities.
-* Training & Workload Management → Some team members were simultaneously engaged in internships and part-time jobs, which created additional scheduling challenges.
-* Transition from Graduation → A member who had recently graduated faced the challenge of adapting to new responsibilities while contributing effectively to the project.
-
-Despite these challenges, we relied on clear communication, agile practices, and strong teamwork to stay on track. This experience strengthened our problem-solving skills and taught us how to deliver under real-world constraints.
 
 ---
 
@@ -130,7 +147,5 @@ Despite these challenges, we relied on clear communication, agile practices, and
 * AI-powered **spending insights** and predictions.
 * Multi-user support with family/group accounts.
 * Export financial reports to **PDF/Excel**.
-* Notifications for overspending or low balance.
 * Mobile-first PWA version.
-  
 
