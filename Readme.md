@@ -10,6 +10,8 @@ A secure, intuitive web application that empowers users to take control of their
 
 ## 📝 Introduction
 
+This project was developed as the final capstone for the **Market Ready Developer Internship** with [Gaza Sky Geeks](https://gazaskygeeks.com/), showcasing full-stack development, teamwork, and real-world agile collaboration.
+
 ### The Problem
 
 Many individuals struggle to track their income and expenses effectively, leading to poor financial decisions. Without clear visibility into spending habits, it becomes difficult to save, stick to a budget, or plan for the future.
